@@ -20,8 +20,8 @@ function updateTime(){
 	let date = d.getDate();
 	if(date >= 0 && date <=9) date = '0' + date;
 
-	let month = d.getMonth();
-	if(month >=0 && month <= 9) month = '0' + month;
+	let month = d.getMonth() + 1;
+	if(month >=0 && month <= 9) month = '0' + month ;
 
 	let year = d.getFullYear();
 	if(year >= 0 && year <= 9) year = '0' + year;
